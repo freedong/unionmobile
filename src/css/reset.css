@@ -41,8 +41,8 @@ body{
 /* 要注意表单元素并不继承父级 font 的问题 */
 
 body, button, input, select, textarea {
-	/*font-family: "微软雅黑","Microsoft YaHei";*/
-	font-family:Arial;
+	font-family: "微软雅黑","Microsoft YaHei";
+	/*font-family:Arial;*/
 	font-size:100%;
 	line-height:24px;
 	color: #666;
