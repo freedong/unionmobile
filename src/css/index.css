@@ -54,9 +54,13 @@
 
 
 /*内容区*/
+/*.container .jgg ul{
+    margin-left: 0.3%;
+}*/
 .container .jgg ul li{
-    width: 33%;
+    width: 33.333%;
     float: left;
+    margin-top: -6px;
 }
 .container .jgg ul li a img{
     width: 100%;
