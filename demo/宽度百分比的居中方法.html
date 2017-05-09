@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>宽度百分比的居中方法</title>
+
+    <style type="text/css">
+        .something-semantic {
+            display: table;
+            width: 100%;
+        }
+        .something-else-semantic {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .div_div{
+            width: 50%;
+            margin: 0 auto;
+            height: 50px;
+        }
+
+
+        .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width:50%;
+            height:30%;
+            padding:20px;
+            text-align:center;
+            background:#393;
+            color:#fff;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+<div class="something-semantic">
+    <div class="something-else-semantic">
+        <div class="div_div"> Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.
+            Unknown stuff to be centered.</div>
+    </div>
+</div>
+
+
+<div class="center">您可以尝试改变浏览器大小，这个元素依然是水平垂直居中的哦！</div>
+
+
+
+</body>
+</html>
