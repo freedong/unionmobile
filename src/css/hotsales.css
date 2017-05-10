@@ -63,3 +63,262 @@
 .hot_banner img{
     width: 100%;
 }
+
+
+
+
+
+.hot_container{
+    margin-top: -6px;
+}
+
+.hot_container .hot_one{
+    background-color: #f1f9f8;
+    width: 100%;
+    padding: 15px 0px;
+ }
+
+
+
+.hot_container .hot_one h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hot_container .hot_one p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+.hot_container .hot_one .hot_one_tab{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.hot_container .hot_one .hot_one_tab .hot_one_tab1{
+    height: 40px;
+}
+
+.hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li{
+    float: left;
+    width: 33.3%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li a{
+    color: #666666;
+    font-size: 1rem;
+}
+.hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li.active{
+    color: #FFFFFF;
+    background-color: #ed7267;
+    border-radius: 5px 0px 0px 0px;
+}
+.hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li.active a{
+    color: #FFFFFF;
+}
+
+
+.hot_container .hot_one .hot_one_tab .hot_one_tab2{
+    height: 150px;
+}
+.hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li{
+    float: left;
+    width: 29.3%;
+    height: 72px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0% 2%;
+}
+.hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li p{
+    color: #666666;
+}
+
+.hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li a{
+    display: block;
+    background-color: #ed7267;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.hot_container .hot_two{
+    background-color: #c6dce4;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+.hot_container .hot_two h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hot_container .hot_two p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+.hot_container .hot_two .hot_two_img{
+    width: 100%;
+    /*height: 206px;*/
+    text-align: center;
+}
+
+.hot_container .hot_two .hot_two_img .hot_two_img1{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f0f8f8;
+}
+
+.hot_container .hot_two .hot_two_img img{
+    width: 94%;
+    padding-top: 6px;
+}
+
+.hot_container .hot_two .hot_two_a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+/*.hot_container .hot_two .hot_two_aa{
+    width: 100%;
+
+}*/
+
+
+.hot_container .hot_three{
+    background-color: #fbdee1;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+.hot_container .hot_three h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hot_container .hot_three p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+.hot_container .hot_three .hot_three_lb{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 15px 0px;
+}
+
+
+.hot_container .hot_three .hot_three_lb ul li{
+    float: left;
+    width: 27.3%;
+    margin: 5px 3%;
+}
+
+.hot_container .hot_three .hot_three_lb ul li p{
+    color: #666666;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.hot_container .hot_three .hot_three_lb ul li a{
+    display: block;
+    background-color: #ed7267;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+
+
+.hot_container .hot_four{
+    background-color: #c6dce4;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+.hot_container .hot_four h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hot_container .hot_four p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+.hot_container .hot_four .hot_four_img{
+    width: 100%;
+    /*height: 206px;*/
+    text-align: center;
+}
+
+/*.hot_container .hot_four .hot_four_img .hot_four_img1{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f0f8f8;
+}*/
+
+.hot_container .hot_four .hot_four_img img{
+    width: 94%;
+    /*padding-top: 6px;*/
+}
+
+.hot_container .hot_four .hot_four_a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
