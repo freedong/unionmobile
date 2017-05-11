@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+
+
+
+.pac_container .pac_cx{
+    width: 100%;
+    background-color: #f1f9f8;
+    padding: 15px 0px;
+}
+
+.pac_container .pac_cx .pac_cx_div{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pac_container .pac_cx .pac_cx_div h5{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.pac_container .pac_cx .pac_cx_div p{
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+}
+.pac_container .pac_cx .pac_cx_div .pac_jiage{
+    background-color: #ed7267;
+    height: 50%;
+    text-align: center;
+}
+.pac_container .pac_cx .pac_cx_div .pac_jiage .pac_sp{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pac_container .pac_cx .pac_cx_div .pac_jiage .pac_sp1{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.pac_container .pac_cx .pac_cx_div h6{
+    color: #666666;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pac_container .pac_cx .pac_cx_div ul.ul1{
+
+ }
+.pac_container .pac_cx .pac_cx_div ul.ul1 li{
+    color: #666666;
+    font-size: 1rem;
+    float: left;
+}
+.pac_container .pac_cx .pac_cx_div ul.ul1 li i{
+    font-style: normal;
+    color: #f5c06b;
+}
+
+.pac_container .pac_cx .pac_cx_div ul.ul2{
+
+}
+.pac_container .pac_cx .pac_cx_div ul.ul2 li{
+    float: left;
+}
+
+
+.pac_container .pac_cx .pac_cx_div a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+.pac_container .pac_tj{
+    width: 100%;
+    background-color: #dceef5;
+    padding: 15px 0px;
+}
+
+.pac_container .pac_tj .pac_tj_div{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pac_container .pac_tj .pac_tj_div h5{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.pac_container .pac_tj .pac_tj_div p{
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+}
+.pac_container .pac_tj .pac_tj_div .pac_jiage{
+    background-color: #ed7267;
+    height: 50%;
+    text-align: center;
+}
+.pac_container .pac_tj .pac_tj_div .pac_jiage .pac_sp{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pac_container .pac_tj .pac_tj_div .pac_jiage .pac_sp1{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.pac_container .pac_tj .pac_tj_div h6{
+    color: #666666;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pac_container .pac_tj .pac_tj_div ul.ul1{
+
+}
+.pac_container .pac_tj .pac_tj_div ul.ul1 li{
+    color: #666666;
+    font-size: 1rem;
+    float: left;
+}
+.pac_container .pac_tj .pac_tj_div ul.ul1 li i{
+    font-style: normal;
+    color: #f5c06b;
+}
+
+.pac_container .pac_tj .pac_tj_div ul.ul2{
+
+}
+.pac_container .pac_tj .pac_tj_div ul.ul2 li{
+    float: left;
+}
+
+
+.pac_container .pac_tj .pac_tj_div a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.pac_container .pac_jx{
+    width: 100%;
+    background-color: #fef5f0;
+    padding: 15px 0px;
+}
+
+.pac_container .pac_jx .pac_jx_div{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pac_container .pac_jx .pac_jx_div h5{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.pac_container .pac_jx .pac_jx_div p{
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+}
+.pac_container .pac_jx .pac_jx_div .pac_jiage{
+    background-color: #ed7267;
+    height: 50%;
+    text-align: center;
+}
+.pac_container .pac_jx .pac_jx_div .pac_jiage .pac_sp{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pac_container .pac_jx .pac_jx_div .pac_jiage .pac_sp1{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.pac_container .pac_jx .pac_jx_div h6{
+    color: #666666;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pac_container .pac_jx .pac_jx_div ul.ul1{
+
+}
+.pac_container .pac_jx .pac_jx_div ul.ul1 li{
+    color: #666666;
+    font-size: 1rem;
+    float: left;
+}
+.pac_container .pac_jx .pac_jx_div ul.ul1 li i{
+    font-style: normal;
+    color: #f5c06b;
+}
+
+.pac_container .pac_jx .pac_jx_div ul.ul2{
+
+}
+.pac_container .pac_jx .pac_jx_div ul.ul2 li{
+    float: left;
+}
+
+
+.pac_container .pac_jx .pac_jx_div a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+.pac_container .pac_cj{
+    width: 100%;
+    background-color: #fffacc;
+    padding: 15px 0px;
+}
+
+.pac_container .pac_cj .pac_cj_div{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.pac_container .pac_cj .pac_cj_div h5{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.pac_container .pac_cj .pac_cj_div p{
+    color: #888888;
+    font-size: 1rem;
+    text-align: center;
+}
+.pac_container .pac_cj .pac_cj_div .pac_jiage{
+    background-color: #ed7267;
+    height: 50%;
+    text-align: center;
+}
+.pac_container .pac_cj .pac_cj_div .pac_jiage .pac_sp{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pac_container .pac_cj .pac_cj_div .pac_jiage .pac_sp1{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.pac_container .pac_cj .pac_cj_div h6{
+    color: #666666;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.pac_container .pac_cj .pac_cj_div ul.ul1{
+
+}
+.pac_container .pac_cj .pac_cj_div ul.ul1 li{
+    color: #666666;
+    font-size: 1rem;
+    float: left;
+}
+.pac_container .pac_cj .pac_cj_div ul.ul1 li i{
+    font-style: normal;
+    color: #f5c06b;
+}
+
+.pac_container .pac_cj .pac_cj_div ul.ul2{
+
+}
+.pac_container .pac_cj .pac_cj_div ul.ul2 li{
+    float: left;
+}
+
+
+.pac_container .pac_cj .pac_cj_div a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.pac_container .pac_tjb{
+    width: 100%;
+    background-color: #f3e7f7;
+    padding: 15px 0px;
+}
+
+.pac_container .pac_tjb h3{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pac_container .pac_tjb ul{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.pac_container .pac_tjb ul li{
+    width: 24.4%;
+    float: left;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #ed7267;
+}
+
+
+
+
+
+/*底部栏*/
+.pac_container .dianji{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.pac_container a:last-child .dianji{
+    margin-top: 5px;
+}
+.pac_container .dianji p{
+    line-height: 70px;
+    padding-left: 25%;
+    font-size: 1rem;
+}
+
+.pac_container .dianji.dianji1{
+    background: #ffffff url("../images/dianji1.png") 15px 13px no-repeat;
+    background-size: 15% 66%;
+}
+.pac_container .dianji.dianji2{
+    background: #ffffff url("../images/dianji2.png") 15px 11px no-repeat;
+    background-size: 12% 66%;
+}
+
+/*.container .dianji p i{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background: url("../images/jt.png") 20px 0px no-repeat;
+    vertical-align: middle;
+}*/
+
+.pac_container .dianji img{
+    position: absolute;
+    top: 30%;
+    /*left: 0;*/
+    right: 0;
+    bottom: 0;
+    width: 8%;
+    height: 50%;
+}
+
+
+
+
+.pac_container .dbl{
+    background-color: #434343;
+    padding-bottom: 90px;
+    padding-top: 5px;
+}

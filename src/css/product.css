@@ -40,9 +40,11 @@
 .pro_rx_table ul li:nth-child(1){
     background-color: #ed7267;
     border-radius: 5px 0px 0px 0px;
+    border-right: 1px solid #fbdee1;
 }
 .pro_rx_table ul li:nth-child(2){
     background-color: #ed7267;
+    border-right: 1px solid #fbdee1;
 }
 .pro_rx_table ul li:nth-child(3){
     background-color: #ed7267;
@@ -260,6 +262,141 @@
 .pro_container .pro_dh .pro_dh_div .pro_dh_div2 ul li{
     color: #555555;
     font-size: 1rem;
+}
+.pro_container .pro_dh .pro_dh_a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.pro_container .pro_zj{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0px;
+}
+
+.pro_container .pro_zj h3{
+    color: #333333;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.pro_container .pro_zj p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+.pro_container .pro_zj .pro_zj_div2 h5{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pro_container .pro_zj .pro_zj_div2 p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+
+
+
+.pro_container .pro_zj .pro_zj_a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*底部栏*/
+.pro_container .dianji{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.pro_container a:last-child .dianji{
+    margin-top: 5px;
+}
+.pro_container .dianji p{
+    line-height: 70px;
+    padding-left: 25%;
+    font-size: 1rem;
+}
+
+.pro_container .dianji.dianji1{
+    background: #ffffff url("../images/dianji1.png") 15px 13px no-repeat;
+    background-size: 15% 66%;
+}
+.pro_container .dianji.dianji2{
+    background: #ffffff url("../images/dianji2.png") 15px 11px no-repeat;
+    background-size: 12% 66%;
+}
+
+/*.container .dianji p i{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background: url("../images/jt.png") 20px 0px no-repeat;
+    vertical-align: middle;
+}*/
+
+.pro_container .dianji img{
+    position: absolute;
+    top: 30%;
+    /*left: 0;*/
+    right: 0;
+    bottom: 0;
+    width: 8%;
+    height: 50%;
+}
+
+
+
+
+.pro_container .dbl{
+    background-color: #434343;
+    padding-bottom: 90px;
+    padding-top: 5px;
 }
 
 
