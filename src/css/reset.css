@@ -822,8 +822,14 @@ p{
 	float: left;
 	text-align: center;
 	padding: 10px 0px;
+}
+
+.footer ul li.active{
 	background-color: #444445;
 }
+
+
+
 .footer ul li:nth-child(3){
 	width: 24%;
 }
