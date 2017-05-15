@@ -113,11 +113,13 @@
 .int_container .int_cygn .int_cygn_div ul li{
     border-bottom: 1px dashed #999999;
     padding: 5px 0px;
+    width: 95%;
+    margin-left: 10px;
 }
 
 .int_container .int_cygn .int_cygn_div ul li .int_cygn_div1{
     width: 20%;
-    padding: 3%;
+    padding: 3% 3% 3% 0px;
 }
 
 .int_container .int_cygn .int_cygn_div ul li .int_cygn_div1 img{
@@ -126,7 +128,7 @@
 
 
 .int_container .int_cygn .int_cygn_div ul li .int_cygn_div2{
-    width: 71%;
+    width: 74%;
     padding-right: 3%;
 }
 
@@ -172,6 +174,7 @@
     font-weight: bold;
     font-size: 1.25rem;
     padding-left: 12px;
+    padding-bottom: 15px;
 }
 
 
@@ -181,30 +184,45 @@
 
 .int_container .int_tsgn .int_tsgn_div ul li{
     width: 95%;
-    text-align: center;
+    border-bottom: 1px dashed #999999;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+
+.int_container .int_tsgn .int_tsgn_div ul li:nth-child(1){
+    border-top: 1px dashed #999999;
 }
 
 .int_container .int_tsgn .int_tsgn_div ul li .int_tsgn_div1{
     width: 20%;
+    padding: 3% 3% 3% 0px;
+}
+
+.int_container .int_tsgn .int_tsgn_div ul li .int_tsgn_div1 img{
+    width: 100%;
 }
 
 
 .int_container .int_tsgn .int_tsgn_div ul li .int_tsgn_div2{
-    width: 80%;
+    width: 74%;
+    padding-right: 3%;
 }
 
 .int_container .int_tsgn .int_tsgn_div ul li .int_tsgn_div2 h5{
-    color: #333333;
-    font-size: 1rem;
+    color: #666666;
+    font-size: 1.125rem;
+    font-weight: bold;
 }
 .int_container .int_tsgn .int_tsgn_div ul li .int_tsgn_div2 p{
     color: #666666;
     font-size: 1rem;
+    text-align: justify;
+    padding-top: 5px;
 }
 
 .int_container .int_tsgn a{
     display: block;
-    width: 50%;
+    width: 40%;
     margin: 15px auto 0px;
     height: 35px;
     line-height: 35px;
