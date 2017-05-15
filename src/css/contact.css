@@ -98,7 +98,7 @@
 .ct_container .ct_dz .ct_dz_a{
     display: block;
     width: 35%;
-    margin: 15px auto 0px;
+    margin: 20px auto 0px;
     height: 35px;
     line-height: 35px;
     text-align: center;
@@ -128,7 +128,7 @@
 .ct_container .dianji p{
     line-height: 70px;
     padding-left: 25%;
-    font-size: 1rem;
+    font-size: 1.125rem;
 }
 
 .ct_container .dianji.dianji1{
