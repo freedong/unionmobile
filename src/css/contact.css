@@ -56,17 +56,21 @@
 
 .ct_container .ct_dz h3{
     color: #333333;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: bold;
+    padding-left: 12px;
+    padding-bottom: 10px;
 }
 
 .ct_container .ct_dz .ct_dz_div ul li{
     width: 100%;
+    padding-top: 10px;
 }
 
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div1{
     width: 25%;
+    padding: 0px 12px;
 }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div1 img{
@@ -74,18 +78,18 @@
 }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2{
-    width: 75%;
+    width: 68%;
 }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 h5{
     color: #666666;
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: bold;
  }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 p{
     color: #999999;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 .ct_container .ct_dz .ct_dz_a{
