@@ -865,6 +865,10 @@ p{
 	left: 5px;
 }
 
+.hot_top .hot_top1 a img{
+	width: 70%;
+}
+
 .hot_top .hot_top1 p{
 	position: absolute;
 	top: 9px;

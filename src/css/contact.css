@@ -11,23 +11,30 @@
 
 .ct_container .ct_dh h3{
     color: #333333;
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: bold;
+    padding-left: 12px;
 }
 .ct_container .ct_dh p{
     color: #333333;
-    font-size: 1rem;
+    font-size: 0.75rem;
+    padding: 0 12px;
+    width: 90%;
 }
 
 
+.ct_container .ct_dh .ct_dh_div{
+    width: 100%;
+}
 .ct_container .ct_dh .ct_dh_div span{
     color: #ed7267;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: bold;
 }
 
 .ct_container .ct_dh .ct_dh_div img{
     vertical-align: middle;
+    width: 8%;
 }
 
 
