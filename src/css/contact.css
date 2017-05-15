@@ -26,7 +26,7 @@
 
 
 .ct_container .ct_dh .ct_dh_div{
-    width: 100%;
+    width: 97%;
     padding-left: 10px;
 }
 .ct_container .ct_dh .ct_dh_div span{
@@ -83,13 +83,15 @@
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 h5{
     color: #666666;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: bold;
  }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 p{
     color: #999999;
     font-size: 0.75rem;
+    line-height: 18px;
+    padding-right: 10px;
 }
 
 .ct_container .ct_dz .ct_dz_a{
