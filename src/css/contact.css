@@ -25,6 +25,7 @@
 
 .ct_container .ct_dh .ct_dh_div{
     width: 100%;
+    padding-left: 10px;
 }
 .ct_container .ct_dh .ct_dh_div span{
     color: #ed7267;
@@ -34,7 +35,7 @@
 
 .ct_container .ct_dh .ct_dh_div img{
     vertical-align: middle;
-    width: 8%;
+    width: 6%;
 }
 
 
