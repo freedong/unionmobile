@@ -85,13 +85,14 @@
     color: #666666;
     font-size: 1rem;
     font-weight: bold;
+    padding-bottom: 10px;
  }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 p{
     color: #999999;
     font-size: 0.75rem;
     line-height: 18px;
-    padding-right: 10px;
+    padding-right: 13px;
 }
 
 .ct_container .ct_dz .ct_dz_a{
