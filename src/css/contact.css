@@ -1,3 +1,150 @@
 @charset "utf-8";
 
 
+.ct_container .ct_dh{
+    background-color: #f1f9f8;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+.ct_container .ct_dh h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.ct_container .ct_dh p{
+    color: #333333;
+    font-size: 1rem;
+}
+
+
+.ct_container .ct_dh .ct_dh_div span{
+    color: #ed7267;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ct_container .ct_dh .ct_dh_div img{
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.ct_container .ct_dz{
+    background-color: #fef5f0;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+
+
+.ct_container .ct_dz h3{
+    color: #333333;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.ct_container .ct_dz .ct_dz_div ul li{
+    width: 100%;
+}
+
+
+.ct_container .ct_dz .ct_dz_div ul li .ct_dz_div1{
+    width: 25%;
+}
+
+.ct_container .ct_dz .ct_dz_div ul li .ct_dz_div1 img{
+    width: 100%;
+}
+
+.ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2{
+    width: 75%;
+}
+
+.ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 h5{
+    color: #666666;
+    font-size: 1rem;
+    font-weight: bold;
+ }
+
+.ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 p{
+    color: #999999;
+    font-size: 1rem;
+}
+
+.ct_container .ct_dz .ct_dz_a{
+    display: block;
+    width: 50%;
+    margin: 15px auto 0px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    box-shadow: 2px 2px 5px #b99b9c;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+/*底部栏*/
+.ct_container .dianji{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.ct_container a:last-child .dianji{
+    margin-top: 5px;
+}
+.ct_container .dianji p{
+    line-height: 70px;
+    padding-left: 25%;
+    font-size: 1rem;
+}
+
+.ct_container .dianji.dianji1{
+    background: #ffffff url("../images/dianji1.png") 15px 13px no-repeat;
+    background-size: 15% 66%;
+}
+.ct_container .dianji.dianji2{
+    background: #ffffff url("../images/dianji2.png") 15px 11px no-repeat;
+    background-size: 12% 66%;
+}
+
+/*.container .dianji p i{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background: url("../images/jt.png") 20px 0px no-repeat;
+    vertical-align: middle;
+}*/
+
+.ct_container .dianji img{
+    position: absolute;
+    top: 30%;
+    /*left: 0;*/
+    right: 0;
+    bottom: 0;
+    width: 8%;
+    height: 50%;
+}
+
+
+
+
+.ct_container .dbl{
+    background-color: #434343;
+    padding-bottom: 90px;
+    padding-top: 5px;
+}
