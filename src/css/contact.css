@@ -12,14 +12,14 @@
 .ct_container .ct_dh h3{
     color: #333333;
     /*font-size: 0.875rem;*/
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     padding-left: 12px;
 }
 .ct_container .ct_dh p{
     color: #333333;
     /*font-size: 0.75rem;*/
-    font-size: 20px;
+    font-size: 14px;
     padding: 0 12px;
     width: 90%;
 }
