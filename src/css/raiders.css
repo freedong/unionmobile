@@ -21,6 +21,7 @@
 .rai_container .rai_kt .rai_kt_div ul li img{
     vertical-align: middle;
     width: 8%;
+    padding-right: 10px;
 }
 .rai_container .rai_kt .rai_kt_div ul li{
     color: #666666;
@@ -157,14 +158,14 @@
 }
 
 .rai_container .rai_fk .rai_fk_div ul li .rai_fk_div2 h5{
-    color: #666666;
+    color: #555555;
     font-size: 1rem;
-    font-weight: bold;
     padding-top: 20px;
 }
 .rai_container .rai_fk .rai_fk_div ul li .rai_fk_div2 p{
-    color: #666666;
-    font-size: 1rem;
+    color: #888888;
+    font-size: 0.875rem;
+    text-align: justify;
 }
 
 
