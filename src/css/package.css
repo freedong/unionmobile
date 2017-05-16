@@ -89,6 +89,8 @@
 .pac_container .pac_cx .pac_cx_div ul.ul2 li{
     float: left;
     font-size: 0.9375rem;
+    text-align: center;
+    width: 32%;
 }
 
 .pac_container .pac_cx .pac_cx_div ul.ul2 li.plr{
