@@ -56,14 +56,14 @@
 
 .pac_container .pac_cx .pac_cx_div ul.ul1{
    /* padding: 0px 4%;*/
-    padding: 0px 6%;
+    padding: 0px 5%;
  }
 .pac_container .pac_cx .pac_cx_div ul.ul1 li{
     color: #666666;
-    font-size: 1rem;
+    font-size: 0.9375rem;
     float: left;
     /*padding: 2px 2%;*/
-    padding-right: 2%;
+    /*padding-right: 2%;*/
     padding-top: 2px;
 }
 .pac_container .pac_cx .pac_cx_div ul.ul1 li i{
@@ -73,11 +73,22 @@
     font-size: 12px;
 }
 
+.pac_container .pac_cx .pac_cx_div ul.ul1 li.pl{
+    padding-left: 10%;
+}
+
+
+.pac_container .pac_cx .pac_cx_div ul.ul1 li span{
+    /*padding-left: 1%;*/
+}
+
+
 .pac_container .pac_cx .pac_cx_div ul.ul2{
-    padding: 0px 2%;
+    padding: 0px 5%;
 }
 .pac_container .pac_cx .pac_cx_div ul.ul2 li{
     float: left;
+    font-size: 0.9375rem;
 }
 
 .pac_container .pac_cx .pac_cx_div ul.ul2 li.plr{
