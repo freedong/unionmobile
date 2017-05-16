@@ -82,18 +82,22 @@
 
 .hot_container .hot_one h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_one p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 
 .hot_container .hot_one .hot_one_tab{
     width: 95%;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: #FFFFFF;
 }
 
@@ -123,25 +127,30 @@
 
 
 .hot_container .hot_one .hot_one_tab .hot_one_tab2{
-    height: 150px;
+    height: 135px;
+    padding-top: 5px;
 }
 .hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li{
     float: left;
     width: 29.3%;
-    height: 72px;
+    height: 68px;
     line-height: 35px;
     text-align: center;
     margin: 0% 2%;
 }
 .hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li p{
     color: #666666;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
+    padding: 0px;
 }
 
 .hot_container .hot_one .hot_one_tab .hot_one_tab2 ul li a{
     display: block;
     background-color: #ed7267;
     color: #ffffff;
+    font-size: 0.875rem;
+    height: 30px;
+    line-height: 30px;
 }
 
 
@@ -162,12 +171,16 @@
 
 .hot_container .hot_two h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_two p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 
@@ -175,10 +188,11 @@
     width: 100%;
     /*height: 206px;*/
     text-align: center;
+    padding: 15px 0px;
 }
 
 .hot_container .hot_two .hot_two_img .hot_two_img1{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     background-color: #f0f8f8;
 }
@@ -186,19 +200,21 @@
 .hot_container .hot_two .hot_two_img img{
     width: 94%;
     padding-top: 6px;
+    height: 150px;
 }
 
 .hot_container .hot_two .hot_two_a{
     display: block;
-    width: 50%;
-    margin: 15px auto 0px;
-    height: 35px;
-    line-height: 35px;
+    width: 40%;
+    margin: 5px auto 0px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
     background:linear-gradient(to right,#ec6a5e,#f17c72);
     box-shadow: 2px 2px 5px #b99b9c;
     border-radius: 6px;
     color: #FFFFFF;
+    font-size: 0.875rem;
 }
 
 
@@ -218,19 +234,23 @@
 
 .hot_container .hot_three h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_three p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 .hot_container .hot_three .hot_three_lb{
     width: 95%;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: #FFFFFF;
-    padding: 15px 0px;
+    padding: 5px 0px;
 }
 
 
@@ -242,8 +262,9 @@
 
 .hot_container .hot_three .hot_three_lb ul li p{
     color: #666666;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     text-align: center;
+    padding: 0px;
 }
 
 .hot_container .hot_three .hot_three_lb ul li a{
@@ -253,6 +274,7 @@
     text-align: center;
     height: 30px;
     line-height: 30px;
+    font-size: 0.875rem;
 }
 
 
@@ -268,12 +290,16 @@
 
 .hot_container .hot_four h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_four p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 
@@ -281,6 +307,7 @@
     width: 100%;
     /*height: 206px;*/
     text-align: center;
+    padding: 15px 0px;
 }
 
 /*.hot_container .hot_four .hot_four_img .hot_four_img1{
@@ -296,15 +323,16 @@
 
 .hot_container .hot_four .hot_four_a{
     display: block;
-    width: 50%;
-    margin: 15px auto 0px;
-    height: 35px;
-    line-height: 35px;
+    width: 40%;
+    margin: 5px auto 0px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    background: linear-gradient(to right,#ec6a5e,#f17c72);
     box-shadow: 2px 2px 5px #b99b9c;
     border-radius: 6px;
     color: #FFFFFF;
+    font-size: 0.875rem;
 }
 
 
@@ -321,12 +349,16 @@
 
 .hot_container .hot_five h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_five p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 
@@ -345,19 +377,21 @@
 .hot_container .hot_five .hot_five_img img{
     width: 94%;
     /*padding-top: 6px;*/
+    padding: 15px 0px;
 }
 
 .hot_container .hot_five .hot_five_a{
     display: block;
-    width: 50%;
-    margin: 15px auto 0px;
-    height: 35px;
-    line-height: 35px;
+    width: 40%;
+    margin: 5px auto 0px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    background: linear-gradient(to right,#ec6a5e,#f17c72);
     box-shadow: 2px 2px 5px #b99b9c;
     border-radius: 6px;
     color: #FFFFFF;
+    font-size: 0.875rem;
 }
 
 
@@ -374,12 +408,16 @@
 
 .hot_container .hot_six h3{
     color: #333333;
-    font-size: 1rem;
     font-weight: bold;
+    font-size: 1.25rem;
+    padding-left: 12px;
+    padding-bottom: 15px;
 }
 .hot_container .hot_six p{
     color: #333333;
     font-size: 1rem;
+    padding: 0px 12px;
+    text-align: justify;
 }
 
 
@@ -387,6 +425,7 @@
     width: 100%;
     /*height: 206px;*/
     text-align: center;
+    padding: 15px 0px;
 }
 
 .hot_container .hot_six .hot_six_img .hot_six_img1{
@@ -402,15 +441,16 @@
 
 .hot_container .hot_six .hot_six_a{
     display: block;
-    width: 50%;
-    margin: 15px auto 0px;
-    height: 35px;
-    line-height: 35px;
+    width: 40%;
+    margin: 5px auto 0px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    background:linear-gradient(to right,#ec6a5e,#f17c72);
+    background: linear-gradient(to right,#ec6a5e,#f17c72);
     box-shadow: 2px 2px 5px #b99b9c;
     border-radius: 6px;
     color: #FFFFFF;
+    font-size: 0.875rem;
 }
 
 
