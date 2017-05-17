@@ -828,7 +828,7 @@ p{
 	/*height: 60px;*/
 	float: left;
 	text-align: center;
-	/*padding: 10px 0px;*/
+	padding: 10px 0px 5px 0px;
 }
 
 .footer ul li.active{
