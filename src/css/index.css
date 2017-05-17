@@ -38,10 +38,21 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/*底部栏*/
 .container .dianji{
     width: 100%;
-    height: 75px;
-    line-height: 75px;
+    height: 70px;
+    line-height: 70px;
     background-color: #ffffff;
     position: relative;
 }
@@ -51,17 +62,17 @@
 }
 .container .dianji p{
     line-height: 70px;
-    padding-left: 30%;
-    font-size: 1rem;
+    padding-left: 25%;
+    font-size: 1.125rem;
 }
 
 .container .dianji.dianji1{
-    background: #ffffff url("../images/dianji1.png") 15px 3px no-repeat;
-   /* background-size: 15% 66%;*/
+    background: #ffffff url("../images/dianji1.png") 15px 4px no-repeat;
+    /* background-size: 15% 66%;*/
 }
 .container .dianji.dianji2{
-    background: #ffffff url("../images/dianji2.png") 15px 3px no-repeat;
-   /* background-size: 12% 66%;*/
+    background: #ffffff url("../images/dianji2.png") 15px 6px no-repeat;
+    /*background-size: 12% 66%;*/
 }
 
 /*.container .dianji p i{
@@ -83,6 +94,112 @@
 }
 
 
+.container .dbl .div_bg{
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    display: inline-block;
+    width: 60px;
+    height: 57px;
+    background: url("../images/jt_m.png") 0px 0px no-repeat;
+    z-index: 99;
+    background-size: 80%;
+}
+
+.container .dbl .div_bg.div_bg1{
+    top: 93px;
+    right: 0px;
+}
+
+.container .dbl a{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+
+.container .dbl a.lh_a:hover .div_bg{
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    display: inline-block;
+    width: 60px;
+    height: 57px;
+    background: url("../images/jt_j.png") 0px 0px no-repeat;
+    z-index: 99;
+    background-size: 80%;
+}
+
+
+.container .dbl a.tc_a:hover .div_bg{
+    position: absolute;
+    top: 93px;
+    right: 0px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url("../images/jt_j.png") 0px 0px no-repeat;
+    z-index: 99;
+    background-size: 80%;
+}
+
+.container .dbl{
+    background-color: #434343;
+    padding-bottom: 72px;
+    padding-top: 5px;
+    position: relative;
+}
+
+
+
+
+/*
+.container .dianji{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.container a:last-child .dianji{
+    margin-top: 5px;
+}
+.container .dianji p{
+    line-height: 70px;
+    padding-left: 30%;
+    font-size: 1rem;
+}
+
+.container .dianji.dianji1{
+    background: #ffffff url("../images/dianji1.png") 15px 3px no-repeat;
+   /!* background-size: 15% 66%;*!/
+}
+.container .dianji.dianji2{
+    background: #ffffff url("../images/dianji2.png") 15px 3px no-repeat;
+   /!* background-size: 12% 66%;*!/
+}
+
+/!*.container .dianji p i{
+    display: inline-block;
+    width: 30%;
+    height: 40px;
+    background: url("../images/jt.png") 20px 0px no-repeat;
+    vertical-align: middle;
+}*!/
+
+.container .dianji img{
+    position: absolute;
+    top: 30%;
+    /!*left: 0;*!/
+    right: 0;
+    bottom: 0;
+    width: 8%;
+    height: 50%;
+}
+
+
 
 
 .container .dbl{
@@ -91,6 +208,7 @@
     padding-top: 5px;
     margin-top: -6px;
 }
+*/
 
 
 
