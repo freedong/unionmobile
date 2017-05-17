@@ -2,6 +2,13 @@
 /* CSS Document */
 /*&nbsp;*//* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 
+
+
+
+
+
+
+
 html {
 	color: #696969;
 	background: #ffffff;
@@ -22,7 +29,7 @@ html {
 body{
 	width: 100%;
 	min-width: 300px;
-	max-width: 750px;
+	max-width: 640px;
 	margin: 0 auto;
 }
 
@@ -907,4 +914,43 @@ p{
 	font-size: 1.5rem;
 	height: 45px;
 	line-height: 45px;
+}
+
+
+
+@media screen and (min-width: 320px){
+	body{
+		font-size: 14px;
+	}
+	html{
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 375px){
+	body{
+		font-size: 16px;
+	}
+	html{
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 414px){
+	body{
+		font-size: 18px;
+	}
+	html{
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (min-width: 640px){
+	body{
+		font-size: 20px;
+	}
+	html{
+		font-size: 20px;
+	}
 }
