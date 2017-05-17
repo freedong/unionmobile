@@ -22,6 +22,11 @@
     /*padding-bottom: 85px;*/
 }
 
+.container .jgg{
+    height: 495px;
+}
+
+
 .container .jgg ul li{
     width: 33.333%;
     float: left;
@@ -81,7 +86,7 @@
 
 .container .dbl{
     background-color: #434343;
-    padding-bottom: 60px;
+    padding-bottom: 72px;
     padding-top: 5px;
 }
 
