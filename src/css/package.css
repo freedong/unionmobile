@@ -445,11 +445,29 @@
     float: left;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     text-align: center;
     background-color: #ed7267;
+    height: 40px;
+    line-height: 40px;
 }
 
+.pac_container .pac_tjb ul li:nth-last-child(1){
+    font-size: 0.75rem;
+    line-height: 20px;
+}
+.pac_container .pac_tjb ul li:nth-last-child(2){
+    font-size: 0.75rem;
+    line-height: 20px;
+}
+.pac_container .pac_tjb ul li:nth-last-child(3){
+    font-size: 0.75rem;
+    line-height: 20px;
+}
+.pac_container .pac_tjb ul li:nth-last-child(4){
+    font-size: 0.75rem;
+    line-height: 20px;
+}
 
 
 
@@ -504,6 +522,6 @@
 
 .pac_container .dbl{
     background-color: #434343;
-    padding-bottom: 90px;
+    padding-bottom: 72px;
     padding-top: 5px;
 }
