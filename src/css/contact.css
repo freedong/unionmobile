@@ -86,7 +86,7 @@
     color: #666666;
     font-size: 1rem;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
  }
 
 .ct_container .ct_dz .ct_dz_div ul li .ct_dz_div2 p{
@@ -94,7 +94,6 @@
     font-size: 0.875rem;
     line-height: 20px;
     padding-right: 8px;
-    text-align: justify;
 }
 
 .ct_container .ct_dz .ct_dz_a{

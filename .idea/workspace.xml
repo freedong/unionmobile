@@ -21,14 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16930573">
+            <state vertical-scroll-proportion="-3.6133332">
               <caret line="925" column="24" selection-start-line="925" selection-start-column="24" selection-end-line="925" selection-end-column="24" />
               <folding>
                 <marker date="1494987829737" expanded="true" signature="1901:1925" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/contact.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.589057">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,16 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="raiders.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/raiders.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="195" column="1" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -162,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/customer.css" />
         <option value="$PROJECT_DIR$/src/customer.html" />
-        <option value="$PROJECT_DIR$/src/css/contact.css" />
         <option value="$PROJECT_DIR$/src/contact.html" />
         <option value="$PROJECT_DIR$/src/introduce.html" />
         <option value="$PROJECT_DIR$/src/css/introduce.css" />
@@ -179,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/css/hotsales.css" />
         <option value="$PROJECT_DIR$/src/css/product.css" />
         <option value="$PROJECT_DIR$/src/css/reset.css" />
+        <option value="$PROJECT_DIR$/src/css/contact.css" />
       </list>
     </option>
   </component>
@@ -679,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/raiders.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.735294">
@@ -796,11 +789,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16930573">
+        <state vertical-scroll-proportion="-3.6133332">
           <caret line="925" column="24" selection-start-line="925" selection-start-column="24" selection-end-line="925" selection-end-column="24" />
           <folding>
             <marker date="1494987829737" expanded="true" signature="1901:1925" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.589057">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
