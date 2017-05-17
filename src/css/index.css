@@ -23,7 +23,8 @@
 }
 
 .container .jgg{
-    height: 495px;
+    /*height: 495px;*/
+    margin-top: 8px;
 }
 
 
@@ -88,6 +89,7 @@
     background-color: #434343;
     padding-bottom: 72px;
     padding-top: 5px;
+    margin-top: -6px;
 }
 
 

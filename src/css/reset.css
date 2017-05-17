@@ -763,36 +763,46 @@ p{
 .header{
 	width: 100%;
 	background-color: #313131;
-	height: 108px;
+	/*height: 98px;*/
 }
 .header .top{
 	height: 45px;
+	position: relative;
 }
 .header .top .top_l{
-	padding-left: 20px;
-	padding-top: 5px;
+	/*padding-left: 5px;
+	padding-top: 5px;*/
+	position: absolute;
+	top: 5px;
+	left: 5px;
 }
 .header .top .top_r{
-
+	position: absolute;
+	top: 12px;
+	right: 5px;
 }
 
 .header .top .top_r p{
 	color: #ffffff;
-	font-size: 1rem;
-	padding: 10px;
+	font-size: 1.125rem;
+	/*padding: 10px;*/
 }
 
+
+.header .top .top_l img{
+	width: 100%;
+}
 
 
 .header .top_title{
-	height: 43px;
-	line-height: 43px;
+	height: 45px;
+	line-height: 45px;
 	text-align: center;
-	margin-top: 5px;
+	/*margin-top: 5px;*/
 }
 
 .header .top_title h3{
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: #FFFFFF;
 	text-align: center;
 }
@@ -877,7 +887,7 @@ p{
 }
 
 .hot_top .hot_top1 a img{
-	width: 70%;
+	width: 100%;
 }
 
 .hot_top .hot_top1 p{
