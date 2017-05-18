@@ -455,18 +455,22 @@
 .pac_container .pac_tjb ul li:nth-last-child(1){
     font-size: 0.75rem;
     line-height: 20px;
+    height: auto;
 }
 .pac_container .pac_tjb ul li:nth-last-child(2){
     font-size: 0.75rem;
     line-height: 20px;
+    height: auto;
 }
 .pac_container .pac_tjb ul li:nth-last-child(3){
     font-size: 0.75rem;
     line-height: 20px;
+    height: auto;
 }
 .pac_container .pac_tjb ul li:nth-last-child(4){
     font-size: 0.75rem;
     line-height: 20px;
+    height: auto;
 }
 
 
