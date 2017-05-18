@@ -846,6 +846,11 @@ p{
 	padding: 10px 0px 5px 0px;
 }
 
+.footer ul li a{
+	width: 100%;
+	display: inline-block;
+}
+
 .footer ul li.active{
 	background-color: #444445;
 }

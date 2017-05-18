@@ -31,12 +31,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/package.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4097788">
-              <caret line="467" column="17" selection-start-line="467" selection-start-column="17" selection-end-line="467" selection-end-column="17" />
+            <state vertical-scroll-proportion="-13.081081">
+              <caret line="473" column="1" selection-start-line="473" selection-start-column="1" selection-end-line="473" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5627284">
+              <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
+              <folding>
+                <marker date="1495096438882" expanded="true" signature="1901:1925" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +129,6 @@
         <option value="$PROJECT_DIR$/demo/移动端选显卡.html" />
         <option value="$PROJECT_DIR$/src/package.html" />
         <option value="$PROJECT_DIR$/src/css/package.css" />
-        <option value="$PROJECT_DIR$/src/css/reset.css" />
         <option value="$PROJECT_DIR$/src/customer.html" />
         <option value="$PROJECT_DIR$/src/hotsales.html" />
         <option value="$PROJECT_DIR$/src/introduce.html" />
@@ -126,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/css/product.css" />
         <option value="$PROJECT_DIR$/src/css/raiders.css" />
         <option value="$PROJECT_DIR$/src/css/whychoose.css" />
+        <option value="$PROJECT_DIR$/src/css/reset.css" />
       </list>
     </option>
   </component>
@@ -619,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8157897">
-          <caret line="988" column="37" selection-start-line="988" selection-start-column="37" selection-end-line="988" selection-end-column="37" />
-          <folding>
-            <marker date="1495089795258" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2797688">
@@ -772,9 +774,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/package.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4097788">
-          <caret line="467" column="17" selection-start-line="467" selection-start-column="17" selection-end-line="467" selection-end-column="17" />
+        <state vertical-scroll-proportion="-13.081081">
+          <caret line="473" column="1" selection-start-line="473" selection-start-column="1" selection-end-line="473" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5627284">
+          <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
+          <folding>
+            <marker date="1495096438882" expanded="true" signature="1901:1925" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
