@@ -1123,7 +1123,7 @@ p{
 	}
 
 	.hot_container .hot_hd .hot_hdsm{
-		top: 30%!important;
+		top: 30%;
 	}
 	.hot_container .hot_hd .hot_hdsm ul li p{
 		line-height: 18px!important;
@@ -1137,6 +1137,11 @@ p{
 	html{
 		font-size: 16px;
 	}
+
+
+	.hot_container .hot_hd .hot_hdsm{
+		top: 34%;
+	}
 }
 
 @media screen and (min-width: 414px){
@@ -1145,6 +1150,9 @@ p{
 	}
 	html{
 		font-size: 18px;
+	}
+	.hot_container .hot_hd .hot_hdsm{
+		top: 34%;
 	}
 }
 
@@ -1155,5 +1163,8 @@ p{
 	}
 	html{
 		font-size: 20px;
+	}
+	.hot_container .hot_hd .hot_hdsm{
+		top: 34%;
 	}
 }

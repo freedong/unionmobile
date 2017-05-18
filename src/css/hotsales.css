@@ -99,7 +99,9 @@
 
 .hot_container .hot_one .hot_one_tab{
     width: 95%;
-    margin: 10px auto;
+   /* margin: 10px auto;*/
+    /*margin: 8px;*/
+    padding: 8px;
     background-color: #FFFFFF;
 }
 
@@ -116,7 +118,7 @@
 }
 .hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li a{
     color: #666666;
-    font-size: 1rem;
+    font-size: 0.8125rem;
 }
 .hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li.active{
     color: #FFFFFF;
