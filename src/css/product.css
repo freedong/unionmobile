@@ -385,25 +385,26 @@
 }
 
 .pro_container .pro_dh .pro_dh_div .pro_dh_div2{
-    width: 71%;
+    /*width: 71%;*/
 }
 
 .pro_container .pro_dh .pro_dh_div .pro_dh_div2 h5{
     color: #555555;
     font-weight: bold;
-    font-size: 1rem;
-    padding: 5px 0px;
+    font-size: 1.125rem;
+    padding: 5px 12px;
 }
 
 .pro_container .pro_dh .pro_dh_div .pro_dh_div2 ul{
     padding-bottom: 5px;
+    padding-left: 12px;
 }
 
 .pro_container .pro_dh .pro_dh_div .pro_dh_div2 ul li{
     color: #555555;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     text-align: justify;
-    line-height: 20px;
+    line-height: 24px;
 
 }
 
