@@ -20,7 +20,8 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/customer.css" />
 
-
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 
 </head>
 <body>
@@ -44,17 +45,50 @@
 
         <div class="cus_khal">
             <h3>客户案例</h3>
-            <div class="cus_khal_div">
-                <ul class="clearFloat">
-                    <li>
-                        <img src="images/case_img11.png" />
-                    </li>
-                </ul>
+            <div class="picScroll-left">
+                <div class="cus_khal_div bd">
+                    <ul class="clearFloat">
+                        <li>
+                            <img src="images/case_img11.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img12.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img6.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img13.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img9.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img4.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img5.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img7.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img1.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img8.png" />
+                        </li>
+                        <li>
+                            <img src="images/case_img10.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="cus_khal_div1 hd">
+                    <a href="javascript:void(0);" class="prev">上一页</a>
+                    <a href="javascript:void(0);" class="next">下一页</a>
+                </div>
             </div>
-            <div class="cus_khal_div1">
-                <a href="javascript:void(0);">上一页</a>
-                <a href="javascript:void(0);">下一页</a>
-            </div>
+
 
         </div>
 
@@ -131,9 +165,9 @@
 <div class="footer">
     <div class="foot_div">
         <ul class="clearFloat">
-            <li class="active">
+            <li class="">
                 <a href="/" class="foot_nav foot_nav1">
-                    <img src="images/sy_j.png"/>
+                    <img src="images/sy.png"/>
                 </a>
             </li>
             <li>
@@ -161,6 +195,21 @@
     </div>
 
 </div>
+
+
+<script type="text/javascript">
+    jQuery(".picScroll-left").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        /*autoPage: true,*/
+        effect: "leftLoop",
+       /* scroll:6,*/
+        autoPlay: true,
+        interTime:5000,
+        vis: 1,
+        trigger: "click"
+    });
+</script>
 
 
 </body>

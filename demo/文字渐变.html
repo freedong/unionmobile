@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> 让文字颜色渐变 </title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <style type="text/css">
+        div.wzjb{width:500px;
+            border:1px solid #000;
+            background:-webkit-linear-gradient(left,#f00,#ff0 25%,#0f0 40%,#0ff 55%,#00f 70%,#f00);
+            -webkit-background-clip:text;/*只有webkit内核支持text的剪切模式*/
+            color:transparent;
+        }
+
+
+
+        .demo p{
+            margin: 50px auto 100px;
+            font-size: 100px;
+            /*background: -webkit-linear-gradient(top, #fc0, #f30 50%, #c00 51%, #600);*/
+            background: -webkit-linear-gradient(80deg, #fc0, #f30 50%, #c00 51%, #600);
+            background: -ms-linear-gradient(80deg, #fc0, #f30 50%, #c00 51%, #600);
+            -webkit-background-clip: text;
+            -ms-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -ms-text-fill-color: transparent;
+        }
+
+        ::selection{
+            background-color: #0000AA;
+        }
+
+    </style>
+    <link href="" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div class="wzjb">文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果文字颜色渐变效果</div>
+
+<div class="demo">
+    <p>文字颜色是渐变色</p>
+</div>
+
+</body>
+</html>

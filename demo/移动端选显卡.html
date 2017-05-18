@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript">
+        'use strict';
+        (function($) {
+            $.extend($.fn, {
+                offsetSlider: function(obj) {
+                    this.each(function() {
+                        var $self = $(this);
+                        var dom = {
+                            "wrap": $self.find("ul"),
+                            "item": $self.find("li")
+                        };
+                        var settings = {
+                            "len": dom.item.length,
+                            "maxOffset": $('body').width() - dom.wrap.width(),
+                            "distance": 50,
+                            "startX": 0,
+                            "startY": 0,
+                            "curShow": obj ? (obj.curShow ? obj.curShow : 0) : 0
+                        };
+                        var funs = {
+                            init: function() {
+                                funs.getWidthData();
+                                funs.initUI();
+                                if (settings.len > 1) {
+                                    funs.bindEvent();
+                                }
+                            },
+                            getWidthData: function() {
+                                settings.itemWidth = [];
+                                settings.FirstLiOffsetLeft = 0;
+                                settings.LiDistance = 0;
+                                dom.item.each(function() {
+                                    settings.itemWidth.push($(this)[0].offsetWidth);
+                                });
+                                settings.FirstLiOffsetLeft = dom.item[0].offsetLeft;
+                                if (settings.itemWidth.length <= 1) return;
+                                settings.LiDistance = (dom.wrap.width() - 2 * settings.FirstLiOffsetLeft - eval(settings.itemWidth.join('+'))) / (settings.itemWidth.length - 1);
+                            },
+                            updateOffset: function() {
+                                if (settings.itemWidth.length <= 1) {
+                                    settings.currentOffset = settings.offset = 0;
+                                } else {
+                                    settings.curShow = Math.min(settings.curShow, settings.itemWidth.length - 1);
+                                    var allLiWidth = 0
+                                    for (var i = 0; i < settings.curShow; i++) {
+                                        allLiWidth += settings.itemWidth[i];
+                                    }
+                                    // leftOffSet + last (n-1) li width + (n-1) * lis distance + this li width / 2;
+                                    var leftDistance = settings.FirstLiOffsetLeft + allLiWidth + settings.curShow * settings.LiDistance + settings.itemWidth[settings.curShow] / 2;
+                                    var currentOffset = parseInt($(window).width() / 2 - leftDistance);
+                                    if (currentOffset > 0) {
+                                        settings.currentOffset = settings.offset = 0;
+                                    } else if (currentOffset < settings.maxOffset) {
+                                        settings.currentOffset = settings.offset = settings.maxOffset;
+                                    } else {
+                                        settings.currentOffset = settings.offset = currentOffset;
+                                    }
+                                }
+                                dom.wrap.css("-webkit-transition", "-webkit-transform 0.5s ease-in-out")
+                                dom.wrap.css("-webkit-transform", "translate3d(" + settings.currentOffset + "px, 0, 0)");
+                            },
+                            initUI: function() {
+                                if (!settings.curShow) {
+                                    settings.currentOffset = settings.offset = 0;
+                                    dom.wrap.css("-webkit-transform", "translate3d(0, 0, 0)");
+                                } else {
+                                    funs.updateOffset();
+                                }
+                            },
+                            bindEvent: function() {
+                                dom.item.on({
+                                    "click": function(e) {
+                                        e.stopPropagation();
+                                        settings.curShow = parseInt($(this).index());
+                                        funs.updateOffset();
+                                    }
+                                });
+                                $self.off().on({
+                                    "touchstart": function(e) {
+                                        e.stopPropagation();
+                                        settings.startX = e.touches ? e.touches[0].pageX : e.originalEvent.touches[0].pageX;
+                                        settings.startY = e.touches ? e.touches[0].pageY : e.originalEvent.touches[0].pageY;
+                                    },
+                                    "touchmove": function(e) {
+                                        e.stopPropagation();
+                                        e.preventDefault();
+                                        var curX = e.touches ? e.touches[0].pageX : e.originalEvent.touches[0].pageX;
+                                        var curY = e.touches ? e.touches[0].pageY : e.originalEvent.touches[0].pageY;
+                                        var moveX = curX - settings.startX;
+                                        var moveY = curY - settings.startY;
+                                        if (Math.abs(moveY) > Math.abs(moveX)) {
+                                            window.event.returnValue = true;
+                                        } else {
+                                            e.preventDefault();
+                                        }
+                                        dom.wrap.css("-webkit-transition", "")
+                                        var val = moveX + parseInt(settings.offset);
+                                        if (val < settings.maxOffset) {
+                                            if (Math.abs(val - settings.maxOffset) > settings.distance) {
+                                                settings.currentOffset = -settings.distance / 2 + (val - settings.maxOffset + settings.distance) / 5 + settings.maxOffset;
+                                            } else {
+                                                settings.currentOffset = (val - settings.maxOffset) / 2 + settings.maxOffset;
+                                            }
+                                        } else if (val > 0) {
+                                            if (val > settings.distance) {
+                                                settings.currentOffset = (val - settings.distance) / 5 + settings.distance / 2;
+                                            } else {
+                                                settings.currentOffset = val / 2;
+                                            }
+                                        } else {
+                                            settings.currentOffset = val;
+                                        }
+                                        dom.wrap.css("-webkit-transform", "translate3d(" + settings.currentOffset + "px, 0, 0)");
+                                    },
+                                    "touchend": function(e) {
+                                        e.stopPropagation();
+                                        if (settings.currentOffset < settings.maxOffset) {
+                                            dom.wrap.css("-webkit-transition", "-webkit-transform 0.5s ease-in-out")
+                                            settings.currentOffset = settings.offset = settings.maxOffset;
+                                        } else if (settings.currentOffset > 0) {
+                                            dom.wrap.css("-webkit-transition", "-webkit-transform 0.5s ease-in-out")
+                                            settings.currentOffset = settings.offset = 0;
+                                        } else {
+                                            settings.offset = settings.currentOffset;
+                                        }
+                                        dom.wrap.css("-webkit-transform", "translate3d(" + settings.currentOffset + "px, 0, 0)");
+                                    },
+                                    "webkitTransitionEnd": function(e) {
+                                        e.stopPropagation();
+                                        e.preventDefault();
+                                        dom.wrap.css("-webkit-transition", "")
+                                        if (settings.currentOffset < settings.maxOffset) {
+                                            settings.currentOffset = settings.offset = settings.maxOffset;
+                                        } else if (settings.currentOffset > 0) {
+                                            settings.currentOffset = settings.offset = 0;
+                                        } else {
+                                            settings.offset = settings.currentOffset;
+                                        }
+                                        dom.wrap.css("-webkit-transform", "translate3d(" + settings.currentOffset + "px, 0, 0)");
+                                    }
+                                });
+                                $(window).on({
+                                    "resize": function() {
+                                        funs.adjustPos();
+                                    },
+                                    "orientationchange": function() {
+                                        funs.adjustPos();
+                                    }
+                                });
+                            },
+                            adjustPos: function() {
+                                settings.maxOffset = $('body').width() - dom.wrap.width();
+                                funs.getWidthData();
+                                funs.initUI();
+                            }
+                        };
+                        funs.init();
+                    });
+                }
+            });
+        })(window.jQuery || window.Zepto);
+    </script>
+
+    <style type="text/css">
+        .analysis-tabs-title {
+            overflow: hidden;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .analysis-tabs-title ul {
+            width: 180%;
+            display: -webkit-box;
+            display: flex;
+            display: -webkit-flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-justify-content: space-between;
+        }
+
+        .analysis-tabs-title ul li {
+            padding: 10px;
+            text-align: center;
+            display: block;
+        }
+
+        .analysis-tabs-title ul li:first-child {
+            margin-left: 8px;
+        }
+
+        .analysis-tabs-title ul li:last-child {
+            margin-right: 8px;
+        }
+
+        .analysis-tabs-title ul li.active {
+            color: #8e6cd1;
+            border-bottom: 2px solid #8e6cd1;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        $(".analysis-tabs-title").offsetSlider({
+            curShow: parseInt($('.analysis-tabs-title ul').find('.active').index())
+        });
+    </script>
+</head>
+<body>
+
+<div class="analysis-tabs-title">
+    <ul>
+        <li class="active" data-param="overview">综合分析</li>
+        <li data-param="expected_profits">预期收益</li>
+        <li data-param="bull_profits">追涨能力</li>
+        <li data-param="profit_ranking">收益排名</li>
+        <li data-param="bear_loss">抗跌能力</li>
+        <li data-param="alpha">Alpha</li>
+        <li data-param="sharpe">夏普比率</li>
+    </ul>
+</div>
+
+
+</body>
+</html>

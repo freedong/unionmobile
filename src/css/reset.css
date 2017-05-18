@@ -819,7 +819,7 @@ p{
 /*底部栏*/
 .footer{
 	width: 100%;
-	/* height: 100px;*/
+	/* height: 66px;*/
 	background-color: #16171a;
 	position: fixed;
 	/*top: 0;*/
@@ -946,6 +946,36 @@ p{
 	}
 	html{
 		font-size: 14px;
+	}
+
+
+	.pac_container .pac_tjb ul li{
+		width: 24.3%!important;
+	}
+
+	.pac_container .pac_tjb ul li:nth-last-child(2){
+		/*font-size: 12px!important;
+		-webkit-transform-origin-x: 0!important;
+		-webkit-transform: scale(0.90)!important;*/
+		height: 80px!important;
+	}
+	.pac_container .pac_tjb ul li:nth-last-child(1){
+		/*font-size: 12px!important;
+		-webkit-transform-origin-x: 0!important;
+		-webkit-transform: scale(0.90)!important;*/
+		height: 80px!important;
+	}
+	.pac_container .pac_tjb ul li:nth-last-child(3){
+		/*font-size: 12px!important;
+		-webkit-transform-origin-x: 0!important;
+		-webkit-transform: scale(0.90)!important;*/
+		height: 80px!important;
+	}
+	.pac_container .pac_tjb ul li:nth-last-child(4){
+		/*font-size: 12px!important;
+		-webkit-transform-origin-x: 0!important;
+		-webkit-transform: scale(0.90)!important;*/
+		height: 80px!important;
 	}
 }
 
