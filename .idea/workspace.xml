@@ -44,10 +44,10 @@
       <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5627284">
-              <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.8684531">
+              <caret line="864" column="30" selection-start-line="864" selection-start-column="30" selection-end-line="864" selection-end-column="30" />
               <folding>
-                <marker date="1495096438882" expanded="true" signature="1901:1925" placeholder="{...}" />
+                <marker date="1495096671668" expanded="true" signature="1901:1925" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -782,10 +782,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5627284">
-          <caret line="849" column="16" selection-start-line="849" selection-start-column="16" selection-end-line="849" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8684531">
+          <caret line="864" column="30" selection-start-line="864" selection-start-column="30" selection-end-line="864" selection-end-column="30" />
           <folding>
-            <marker date="1495096438882" expanded="true" signature="1901:1925" placeholder="{...}" />
+            <marker date="1495096671668" expanded="true" signature="1901:1925" placeholder="{...}" />
           </folding>
         </state>
       </provider>
