@@ -47,8 +47,8 @@
 
 
 
-
-/*底部栏*/
+/*
+/!*底部栏*!/
 .container .dianji{
     width: 100%;
     height: 60px;
@@ -68,25 +68,25 @@
 
 .container .dianji.dianji1{
     background: #ffffff url("../images/dianji1.png") 15px 0px no-repeat;
-    /* background-size: 15% 66%;*/
+    /!* background-size: 15% 66%;*!/
 }
 .container .dianji.dianji2{
     background: #ffffff url("../images/dianji2.png") 15px 1px no-repeat;
-    /*background-size: 12% 66%;*/
+    /!*background-size: 12% 66%;*!/
 }
 
-/*.container .dianji p i{
+/!*.container .dianji p i{
     display: inline-block;
     width: 30%;
     height: 40px;
     background: url("../images/jt.png") 20px 0px no-repeat;
     vertical-align: middle;
-}*/
+}*!/
 
 .container .dianji img{
     position: absolute;
     top: 30%;
-    /*left: 0;*/
+    /!*left: 0;*!/
     right: 0;
     bottom: 0;
     width: 8%;
@@ -121,11 +121,11 @@
 
 .container .dbl a.lh_a:hover .div_bg{
     position: absolute;
-    top: 18px;
+    top: 12px;
     right: 0px;
     display: inline-block;
     width: 60px;
-    height: 57px;
+    height: 54px;
     background: url("../images/jt_j.png") 0px 0px no-repeat;
     z-index: 99;
     background-size: 80%;
@@ -134,7 +134,7 @@
 
 .container .dbl a.tc_a:hover .div_bg{
     position: absolute;
-    top: 93px;
+    top: 76px;
     right: 0px;
     display: inline-block;
     width: 60px;
@@ -149,7 +149,8 @@
     padding-bottom: 72px;
     padding-top: 5px;
     position: relative;
-}
+    margin-top: -6px;
+}*/
 
 
 
