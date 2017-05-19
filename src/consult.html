@@ -123,21 +123,21 @@
 
         .tab {
             width: 95%;
-            margin: 0 auto 5px;
+            margin: 10px auto 5px;
         }
 
         /*内层*/
         .tab-hd {
-            background: #F93;
+            background: #FFFFFF;
             overflow: hidden;
             zoom: 1;
-            height: 60px;
+            height: 45px;
         }
 
         .tab-hd li.inner_li {
             float: left;
             width: 50%;
-            color: #fff;
+            color: #ffbe59;
             text-align: center;
             cursor: pointer;
             height: 60px;
@@ -146,15 +146,17 @@
         }
 
         .tab-hd li.inner_li.active {
-            background: #F60;
+            /*background: #ed7267;*/
+            /*color: #FFFFFF;*/
         }
+
 
 
         .tab-hd li.inner_li.zxd{
             font-size: 1.125rem;
-            height: 32px;
-            line-height: 32px;
-            width: 30%;
+            height: 45px;
+            line-height: 45px;
+            width: 33.3%;
             display: block;
         }
 
@@ -168,27 +170,36 @@
 
 
         /*外层*/
+
+        .bor{
+            border: 1px solid #ed7267;
+            border-radius: 5px 5px 0px 0px;
+        }
         .tab-hd {
-            background: #F93;
+            background: #FFFFFF;
             overflow: hidden;
             zoom: 1;
-            height: 60px;
+            height: 45px;
         }
 
         .tab-hd li.out_li {
             float: left;
             width: 50%;
-            color: #fff;
+            color: #ed7267;
             text-align: center;
             cursor: pointer;
-            height: 60px;
-            line-height: 60px;
+            height: 45px;
+            line-height: 45px;
             font-size: 1.25rem;
+            font-weight: bold;
         }
 
         .tab-hd li.out_li.active {
-            background: #F60;
+            background: #ed7267;
+            color: #FFFFFF;
         }
+
+
 
 
 
@@ -200,7 +211,7 @@
 
         .tab-bd li.con_out_li {
             display: none;
-            padding: 5px;
+            /*padding: 5px;*/
             /*border: 1px solid #ddd;*/
             border-top: 0 none;
             font-size: 24px;
@@ -214,7 +225,7 @@
 
         .tab-bd li.con_inner_li {
             display: none;
-            padding: 5px;
+            /*padding: 5px;*/
             /*border: 1px solid #ddd;*/
             border-top: 0 none;
             font-size: 24px;
@@ -783,15 +794,15 @@
             <div class="wrap">
 
                 <div class="tab">
-                    <ul class="tab-hd">
+                    <ul class="tab-hd bor">
                         <li class="active out_li">特色号码</li>
                         <li class="out_li">低价号码</li>
                     </ul>
                     <ul class="tab-bd">
                         <li class="thisclass con_out_li">
                             <ul class="tab-hd" style="height: 37px;">
-                                <li class="active zxd inner_li">带6的号码</li>
-                                <li class="zxd1 inner_li">带8的号码</li>
+                                <li class="zxd inner_li">带6的号码</li><!--active-->
+                                <li class="zxd inner_li">带8的号码</li>
                                 <li class="zxd inner_li">好记的号码</li>
                             </ul>
 
@@ -1065,7 +1076,7 @@
                         <li class="con_out_li">
                             <ul class="tab-hd z_tab" style="height: 37px;width: 100%;">
                                 <li class="active zxd inner_li">行业特色</li>
-                                <li class="zxd1 inner_li">超低价</li>
+                                <li class="zxd inner_li">超低价</li>
                                 <li class="zxd inner_li">性价比高</li>
                             </ul>
 
@@ -1075,7 +1086,7 @@
                                         <div class="con_chf_tab2">
                                             <ul class="clearFloat">
                                                 <li>
-                                                    <p>400-***-1111</p>
+                                                    <p>400-***-4444</p>
                                                     <a href="javascript:void(0);">预占此号</a>
                                                 </li>
                                                 <li>
