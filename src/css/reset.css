@@ -1137,7 +1137,7 @@ p{
 	}
 
 	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
-		padding: 0px!important;
+		padding: 0px;
 	}
 }
 
@@ -1153,6 +1153,9 @@ p{
 	.hot_container .hot_hd .hot_hdsm{
 		top: 34%;
 	}
+	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
+		padding: 1%;
+	}
 }
 
 @media screen and (min-width: 414px){
@@ -1164,6 +1167,9 @@ p{
 	}
 	.hot_container .hot_hd .hot_hdsm{
 		top: 34%;
+	}
+	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
+		padding: 1%;
 	}
 }
 
@@ -1194,5 +1200,9 @@ p{
 
 	.footer ul li{
 		height: 66px;
+	}
+
+	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
+		padding: 1%;
 	}
 }
