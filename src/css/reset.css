@@ -1128,6 +1128,12 @@ p{
 	.hot_container .hot_hd .hot_hdsm ul li p{
 		line-height: 18px!important;
 	}
+
+
+
+	.hot_container .hot_three .hot_three_lb ul li p{
+		font-size: 0.75rem;
+	}
 }
 
 @media screen and (min-width: 375px){
@@ -1179,5 +1185,9 @@ p{
 
 	.footer ul li a img.bfb{
 		width: 20%;
+	}
+
+	.footer ul li{
+		height: 66px;
 	}
 }
