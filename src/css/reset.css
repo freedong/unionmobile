@@ -1135,6 +1135,10 @@ p{
 	.hot_container .hot_three .hot_three_lb ul li p{
 		font-size: 0.75rem;
 	}
+
+	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
+		padding: 0px;
+	}
 }
 
 @media screen and (min-width: 375px){
