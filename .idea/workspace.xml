@@ -72,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="consult.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="consult.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/consult.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.1081085">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.43539">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -92,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.680877">
-              <caret line="1071" column="18" selection-start-line="1071" selection-start-column="18" selection-end-line="1071" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.88">
+              <caret line="1052" column="0" selection-start-line="1052" selection-start-column="0" selection-end-line="1052" selection-end-column="0" />
               <folding>
                 <marker date="1495177940202" expanded="true" signature="1901:1925" placeholder="{...}" />
               </folding>
@@ -184,12 +184,12 @@
         <option value="$PROJECT_DIR$/src/css/raiders.css" />
         <option value="$PROJECT_DIR$/src/css/whychoose.css" />
         <option value="$PROJECT_DIR$/src/css/hotsales.css" />
-        <option value="$PROJECT_DIR$/src/css/consult.css" />
         <option value="$PROJECT_DIR$/src/css/package.css" />
         <option value="$PROJECT_DIR$/src/css/index.css" />
         <option value="$PROJECT_DIR$/src/hotsales.html" />
         <option value="$PROJECT_DIR$/src/consult.html" />
         <option value="$PROJECT_DIR$/src/css/reset.css" />
+        <option value="$PROJECT_DIR$/src/css/consult.css" />
       </list>
     </option>
   </component>
@@ -748,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/consult.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.1081085">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/package.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.432432">
@@ -829,11 +821,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.680877">
-          <caret line="1071" column="18" selection-start-line="1071" selection-start-column="18" selection-end-line="1071" selection-end-column="18" />
+        <state vertical-scroll-proportion="-1.88">
+          <caret line="1052" column="0" selection-start-line="1052" selection-start-column="0" selection-end-line="1052" selection-end-column="0" />
           <folding>
             <marker date="1495177940202" expanded="true" signature="1901:1925" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/consult.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43539">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

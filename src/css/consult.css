@@ -44,7 +44,7 @@
 
 .con_container .con_chf .con_chf_tab .con_chf_tab1 ul li{
     float: left;
-    width: 33.3%;
+    /*width: 33.3%;*/
     height: 40px;
     line-height: 40px;
     text-align: center;
