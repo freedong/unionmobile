@@ -28,7 +28,8 @@
 
 .ct_container .ct_dh .ct_dh_div{
     width: 97%;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
+    margin: 0 auto;
 }
 .ct_container .ct_dh .ct_dh_div span{
     color: #ed7267;
