@@ -53,9 +53,9 @@
         <entry file="file://$PROJECT_DIR$/src/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7692308">
-              <caret line="1139" column="20" selection-start-line="1139" selection-start-column="20" selection-end-line="1139" selection-end-column="20" />
+              <caret line="1139" column="31" selection-start-line="1139" selection-start-column="31" selection-end-line="1139" selection-end-column="31" />
               <folding>
-                <marker date="1495190470200" expanded="true" signature="1901:1925" placeholder="{...}" />
+                <marker date="1495190548201" expanded="true" signature="1901:1925" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -757,9 +757,9 @@
     <entry file="file://$PROJECT_DIR$/src/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7692308">
-          <caret line="1139" column="20" selection-start-line="1139" selection-start-column="20" selection-end-line="1139" selection-end-column="20" />
+          <caret line="1139" column="31" selection-start-line="1139" selection-start-column="31" selection-end-line="1139" selection-end-column="31" />
           <folding>
-            <marker date="1495190470200" expanded="true" signature="1901:1925" placeholder="{...}" />
+            <marker date="1495190548201" expanded="true" signature="1901:1925" placeholder="{...}" />
           </folding>
         </state>
       </provider>

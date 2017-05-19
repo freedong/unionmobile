@@ -1137,7 +1137,7 @@ p{
 	}
 
 	.pac_container .pac_tj .pac_tj_div ul.ul1 li.plr_2{
-		padding: 0px;
+		padding: 0px!important;
 	}
 }
 
