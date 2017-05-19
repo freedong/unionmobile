@@ -24,8 +24,8 @@
       <file leaf-file-name="hotsales.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/hotsales.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51932365">
-              <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.41304347">
+              <caret line="624" column="77" selection-start-line="624" selection-start-column="77" selection-end-line="624" selection-end-column="77" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#4667#26526#0" expanded="false" />
@@ -53,8 +53,8 @@
       <file leaf-file-name="hotsales.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/hotsales.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1621623">
-              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+            <state vertical-scroll-proportion="-10.7027025">
+              <caret line="124" column="18" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -715,16 +715,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/hotsales.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1621623">
-          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        <state vertical-scroll-proportion="-10.7027025">
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hotsales.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51932365">
-          <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.41304347">
+          <caret line="624" column="77" selection-start-line="624" selection-start-column="77" selection-end-line="624" selection-end-column="77" />
           <folding>
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#4667#26526#0" expanded="false" />
