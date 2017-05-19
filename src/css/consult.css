@@ -64,7 +64,7 @@
 
 
 .con_container .con_chf .con_chf_tab .con_chf_tab2{
-    /*height: 150px;*/
+    height: 150px;
 }
 .con_container .con_chf .con_chf_tab .con_chf_tab2 ul li{
     float: left;
