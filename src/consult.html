@@ -19,6 +19,101 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/consult.css" />
 
+
+
+
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+
+
+    <style type="text/css">
+        .outBox{ width:95%; /*border:1px solid #ddd;*/ text-align:left;margin: 0 auto;  }
+        .outBox .hd{ height:30px; line-height:30px; /*background:#f4f4f4; padding:0 20px; border-bottom:1px solid #ddd;*/  position:relative;  }
+
+        .outBox .hd ul {
+            float: left;
+            position: absolute;
+            left: 0px;
+            top: -4px;
+            height: 32px;
+            width: 99%;
+            border: 1px solid #ed7267;
+            border-radius: 5px 5px 0px 0px;
+            background-color: #FFFFFF;
+        }
+
+        .outBox .hd ul li {
+            float: left; /*padding:0 15px;*/
+            cursor: pointer;
+            width: 50%;
+            text-align: center;
+            font-size: 1.25rem;
+            height: 32px;
+            color: #ed7267;
+            font-weight: bold;
+        }
+
+        .outBox .hd ul li.on {
+
+            height: 32px;
+            background: #ed7267;
+            color: #FFFFFF;
+            border-radius: 4px 0px 0px 0px;
+            /*border: 1px solid #ddd;
+            border-bottom: 2px solid #fff;*/
+        }
+
+        /*.inBox{ padding:15px 15px 0 15px;  }*/
+
+
+       /* .inBox .inHd{ height:24px; line-height:24px; border-bottom:1px solid #ccc; padding:0 10px;   }
+        .inBox .inHd ul{ overflow:hidden; zoom:1; }
+        .inBox .inHd ul li{ height:24px; width:60px; text-align:center; float:left; cursor:pointer;  }*/
+
+
+        /* .inBox .inHd ul li.on{ background:#ccc; color:#fff;  }*/
+        .inBox .inHd ul li.on {
+            color: #FFFFFF;
+            /* background-color: #ed7267;
+             border-radius: 5px 0px 0px 0px;*/
+        }
+        .inBox .inHd ul li.on a{
+            color: #ffbe59!important;
+        }
+
+
+        /*.inBox .inBd ul{ padding:15px;  zoom:1; overflow:hidden;   }
+        .inBox .inBd li{ height:24px; line-height:24px; overflow:hidden; zoom:1;  }
+        .inBox .inBd li .date{ float:right; color:#999;  }*/
+
+
+        /*.picScroll-left .hd ul {
+            float: right;
+            overflow: hidden;
+            zoom: 1;
+            margin-top: 10px;
+            zoom: 1;
+            position: absolute;
+            top: 170px;
+            left: 50%;
+        }
+
+        .picScroll-left .hd ul li {
+            float: left;
+            width: 10px;/!*10 20*!/
+            height: 10px;
+            overflow: hidden;
+            margin-right: 15px;
+            text-indent: -999px;
+            cursor: pointer;
+            background: url("images/icoCircle.png") 0 -10px no-repeat;
+        }
+
+        .picScroll-left .hd ul li.on {
+            background-position: 0 0;
+        }*/
+    </style>
+
 </head>
 <body>
 
@@ -44,97 +139,526 @@
             <p>现在拨打：400-004-2288，即刻申请新用户优惠活动。</p>
             <p>选套餐，送话费，仅此一周，机会难得！</p>
 
-            <div class="con_chf_tab">
-                <div class="con_chf_tab1">
-                    <ul class="clearFloat">
-                        <li class="active"><a href="javascript:void(0);">带6的400号码</a></li>
-                        <li><a href="javascript:void(0);">带8的400号码</a></li>
-                        <li><a href="javascript:void(0);">好记的400号码</a></li>
+            <div class="outBox" style="margin:0 auto">
+                <div class="hd">
+                    <!--<ul></ul>-->
+                    <ul>
+                        <li>特色号码</li>
+                        <li>低价号码</li>
                     </ul>
                 </div>
-                <div class="con_chf_tab2">
-                    <ul class="clearFloat">
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
+                <div class="bd">
+                    <div class="inBox con_chf_tab" style="width: 95%!important;">
+                        <div class="inHd con_chf_tab1">
+                            <ul class="clearFloat">
+                                <li class=""><a href="javascript:void(0);">带6的号码</a></li>
+                                <li><a href="javascript:void(0);">带8的号码</a></li>
+                                <li><a href="javascript:void(0);">好记的号码</a></li>
+                            </ul>
+                        </div>
+                        <div class="inBd con_chf_tab2">
+                            <ul class="clearFloat">
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
 
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-
-
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
 
 
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
 
 
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                        <li>
-                            <p>400-***-6088</p>
-                            <a href="javascript:void(0);">预占此号</a>
-                        </li>
-                    </ul>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+
+
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+                            <li>
+                                <p>400-***-6088</p>
+                                <a href="javascript:void(0);">预占此号</a>
+                            </li>
+
+                        </ul>
+                            <ul class="clearFloat">
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                            </ul>
+                            <ul class="clearFloat">
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="inBox con_chf_tab">
+                        <div class="inHd con_chf_tab1">
+                            <ul class="clearFloat">
+                                <li class=""><a href="javascript:void(0);">行业特色</a></li>
+                                <li><a href="javascript:void(0);">超低价</a></li>
+                                <li><a href="javascript:void(0);">性价比高</a></li>
+                            </ul>
+                        </div>
+                        <div class="inBd con_chf_tab2">
+                            <ul class="clearFloat">
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                            </ul>
+                            <ul class="clearFloat">
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                            </ul>
+                            <ul class="clearFloat">
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+
+
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                                <li>
+                                    <p>400-***-6088</p>
+                                    <a href="javascript:void(0);">预占此号</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
         </div>
@@ -272,6 +796,20 @@
 </div>
 
 
+
+
+<script type="text/javascript">
+    /*
+     SuperSlide组合注意：
+     1、内外层mainCell、targetCell、prevCell、nextCell等对象不能相同，除非特殊应用；
+     2、注意书写顺序，通常先写内层js调用，再写外层js调用
+     */
+
+    /* 内层inBox渐显切换，注意titCell、mainCell等不能与外层相同 */
+    jQuery(".inBox").slide({ titCell:".inHd li",mainCell:".inBd",effect:"left" });
+    /* 外层outBox左滚动切换 */
+    jQuery(".outBox").slide({ effect:"left" });
+</script>
 
 </body>
 </html>

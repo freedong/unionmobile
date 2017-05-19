@@ -24,7 +24,7 @@
     color: #333333;
     font-size: 1rem;
     text-align: justify;
-    padding: 0px 12px;
+    padding: 0px 12px 20px;
 }
 
 
@@ -33,8 +33,9 @@
 
 .con_container .con_chf .con_chf_tab{
     width: 95%;
-    margin: 15px auto;
+    /*margin: 15px auto;*/
     background-color: #FFFFFF;
+    padding: 8px;
 }
 
 .con_container .con_chf .con_chf_tab .con_chf_tab1{
@@ -63,7 +64,7 @@
 
 
 .con_container .con_chf .con_chf_tab .con_chf_tab2{
-    height: 150px;
+    /*height: 150px;*/
 }
 .con_container .con_chf .con_chf_tab .con_chf_tab2 ul li{
     float: left;
