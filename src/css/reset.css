@@ -1167,4 +1167,17 @@ p{
 	.hot_container .hot_hd .hot_hdsm{
 		top: 34%;
 	}
+
+
+	.footer{
+		height: 66px;
+	}
+
+	.footer ul li a img{
+		width: 12%;
+	}
+
+	.footer ul li a img.bfb{
+		width: 20%;
+	}
 }

@@ -83,12 +83,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hotsales.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hotsales.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/hotsales.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35855645">
-              <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+            <state vertical-scroll-proportion="-7.7297297">
+              <caret line="119" column="59" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8974359">
+              <caret line="1180" column="17" selection-start-line="1180" selection-start-column="17" selection-end-line="1180" selection-end-column="17" />
+              <folding>
+                <marker date="1495171372981" expanded="true" signature="1901:1925" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +156,11 @@
         <option value="$PROJECT_DIR$/src/css/product.css" />
         <option value="$PROJECT_DIR$/src/css/raiders.css" />
         <option value="$PROJECT_DIR$/src/css/whychoose.css" />
-        <option value="$PROJECT_DIR$/src/css/reset.css" />
         <option value="$PROJECT_DIR$/src/hotsales.html" />
         <option value="$PROJECT_DIR$/src/css/consult.css" />
         <option value="$PROJECT_DIR$/src/consult.html" />
         <option value="$PROJECT_DIR$/src/css/hotsales.css" />
+        <option value="$PROJECT_DIR$/src/css/reset.css" />
       </list>
     </option>
   </component>
@@ -714,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30769232">
-          <caret line="1121" column="21" selection-start-line="1121" selection-start-column="21" selection-end-line="1121" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/customer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -791,9 +795,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/hotsales.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35855645">
-          <caret line="120" column="18" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+        <state vertical-scroll-proportion="-7.7297297">
+          <caret line="119" column="59" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8974359">
+          <caret line="1180" column="17" selection-start-line="1180" selection-start-column="17" selection-end-line="1180" selection-end-column="17" />
+          <folding>
+            <marker date="1495171372981" expanded="true" signature="1901:1925" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
