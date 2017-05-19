@@ -762,7 +762,7 @@ p{
 /*头部栏*/
 .header{
 	width: 100%;
-	background-color: #313131;
+	background-color: #0092fe;
 	/*height: 98px;*/
 }
 .header .top{
@@ -820,7 +820,7 @@ p{
 .footer{
 	width: 100%;
 	/* height: 66px;*/
-	background-color: #16171a;
+	background-color: #FFFFFF;
 	position: fixed;
 	/*top: 0;*/
 	bottom: 0;
@@ -852,7 +852,7 @@ p{
 }
 
 .footer ul li.active{
-	background-color: #444445;
+	background-color: #0092fe;
 }
 
 
@@ -883,13 +883,13 @@ p{
 .hot_top .hot_top1{
 	width: 100%;
 	height: 45px;
-	background-color: #434343;
+	background-color: #0092fe;
 	position: relative;
 }
 
 
 .hot_top{
-	background-color: #434343;
+	background-color: #0092fe;
 }
 
 .hot_top .hot_top1 a{
@@ -914,7 +914,7 @@ p{
 .hot_top .hot_top2{
 	width: 100%;
 	height: 45px;
-	background-color: #434343;
+	background-color: #0092fe;
 	position: relative;
 }
 
