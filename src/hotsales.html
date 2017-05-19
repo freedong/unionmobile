@@ -29,10 +29,40 @@
 
     <style type="text/css">
         .outBox{ width:95%; /*border:1px solid #ddd;*/ text-align:left;margin: 0 auto;  }
-        .outBox .hd{ height:30px; line-height:30px; background:#f4f4f4; padding:0 20px; border-bottom:1px solid #ddd;  position:relative;  }
-        .outBox .hd ul{ float:left; position:absolute; left:20px; top:-1px; height:32px;   }
-        .outBox .hd ul li{ float:left; padding:0 15px; cursor:pointer;  }
-        .outBox .hd ul li.on{ height:30px;  background:#fff; border:1px solid #ddd; border-bottom:2px solid #fff; }
+        .outBox .hd{ height:30px; line-height:30px; /*background:#f4f4f4; padding:0 20px; border-bottom:1px solid #ddd;*/  position:relative;  }
+
+        .outBox .hd ul {
+            float: left;
+            position: absolute;
+            left: 0px;
+            top: -4px;
+            height: 32px;
+            width: 99%;
+            border: 1px solid #ed7267;
+            border-radius: 5px 5px 0px 0px;
+            background-color: #FFFFFF;
+        }
+
+        .outBox .hd ul li {
+            float: left; /*padding:0 15px;*/
+            cursor: pointer;
+            width: 50%;
+            text-align: center;
+            font-size: 1.25rem;
+            height: 32px;
+            color: #ed7267;
+            font-weight: bold;
+        }
+
+        .outBox .hd ul li.on {
+
+            height: 32px;
+            background: #ed7267;
+            color: #FFFFFF;
+            border-radius: 4px 0px 0px 0px;
+            /*border: 1px solid #ddd;
+            border-bottom: 2px solid #fff;*/
+        }
 
         /*.inBox{ padding:15px 15px 0 15px;  }*/
 
@@ -45,11 +75,11 @@
        /* .inBox .inHd ul li.on{ background:#ccc; color:#fff;  }*/
         .inBox .inHd ul li.on {
             color: #FFFFFF;
-            background-color: #ed7267;
-            border-radius: 5px 0px 0px 0px;
+           /* background-color: #ed7267;
+            border-radius: 5px 0px 0px 0px;*/
         }
         .inBox .inHd ul li.on a{
-            color: #FFFFFF!important;
+            color: #ffbe59!important;
         }
 
 
@@ -585,16 +615,16 @@
             <div class="outBox" style="margin:0 auto">
                 <div class="hd">
                     <!--<ul></ul>-->
-                    <ul><li>你好1</li><li>你好2</li></ul>
+                    <ul><li>特色号码</li><li>低价号码</li></ul>
                 </div>
                 <div class="bd">
                     <!-- inBox S -->
                     <div class="inBox hot_one_tab" style="width: 95%!important;">
                         <div class="inHd hot_one_tab1">
                             <ul class="clearFloat">
-                                <li class=""><a href="javascript:void(0);">带6的400号码</a></li>
-                                <li><a href="javascript:void(0);">带8的400号码</a></li>
-                                <li><a href="javascript:void(0);">好记的400号码</a></li>
+                                <li class=""><a href="javascript:void(0);">带6的号码</a></li>
+                                <li><a href="javascript:void(0);">带8的号码</a></li>
+                                <li><a href="javascript:void(0);">好记的号码</a></li>
                             </ul>
                         </div>
                         <div class="inBd hot_one_tab2">
@@ -814,9 +844,9 @@
                     <div class="inBox hot_one_tab">
                         <div class="inHd hot_one_tab1">
                             <ul class="clearFloat">
-                                <li class=""><a href="javascript:void(0);">行业特色的400号码</a></li>
-                                <li><a href="javascript:void(0);">便宜的400号码</a></li>
-                                <li><a href="javascript:void(0);">性价比高的400号码</a></li>
+                                <li class=""><a href="javascript:void(0);">行业特色</a></li>
+                                <li><a href="javascript:void(0);">超低价</a></li>
+                                <li><a href="javascript:void(0);">性价比高</a></li>
                             </ul>
                         </div>
                         <div class="inBd hot_one_tab2">

@@ -92,7 +92,7 @@
 .hot_container .hot_one p{
     color: #333333;
     font-size: 1rem;
-    padding: 0px 12px;
+    padding: 0px 12px 30px;
     text-align: justify;
 }
 
@@ -117,8 +117,8 @@
     text-align: center;
 }
 .hot_container .hot_one .hot_one_tab .hot_one_tab1 ul li a{
-    color: #666666;
-    font-size: 0.75rem;
+    color: #ffbe59;
+    font-size: 1.125rem;
     /*新增加*/
     display: inline-block;
     width: 100%;
